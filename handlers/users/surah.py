@@ -48,8 +48,3 @@ def namoz_time(city):
     info += f"🌃 <b>Xufton: {res['data']['timings']['Isha']} </b>"
     return info
 
-url = f"https://www.edarabia.com/prayer-times-tashkent"
-r = requests.get(url)
-res = r.json()
-print(res)
-41.3077754187342, 69.24728445897962
